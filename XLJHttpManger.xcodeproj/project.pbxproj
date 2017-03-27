@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17500A9F1E865200002416F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500A9E1E865200002416F0 /* main.m */; };
+		17500AA21E865200002416F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500AA11E865200002416F0 /* AppDelegate.m */; };
+		17500AA51E865200002416F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500AA41E865200002416F0 /* ViewController.m */; };
+		17500AA81E865200002416F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17500AA61E865200002416F0 /* Main.storyboard */; };
+		17500AAA1E865200002416F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17500AA91E865200002416F0 /* Assets.xcassets */; };
+		17500AAD1E865200002416F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17500AAB1E865200002416F0 /* LaunchScreen.storyboard */; };
+		17500AB81E865200002416F0 /* XLJHttpMangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500AB71E865200002416F0 /* XLJHttpMangerTests.m */; };
+		17500AC31E865200002416F0 /* XLJHttpMangerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500AC21E865200002416F0 /* XLJHttpMangerUITests.m */; };
+		17500AD41E8676CD002416F0 /* XLJHttpRequestManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 17500AD31E8676CD002416F0 /* XLJHttpRequestManger.m */; };
+		17E35E591E876E3E00F0C372 /* XLJNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E35E581E876E3E00F0C372 /* XLJNetworkCache.m */; };
+		17E35E5C1E88020800F0C372 /* XLJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E35E5B1E88020800F0C372 /* XLJImageView.m */; };
+		1E2590819A652D269EC45DB0 /* libPods-XLJHttpMangerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE937257AE51D32D94C50BE /* libPods-XLJHttpMangerUITests.a */; };
+		2D73B28826F6A96BAF5AD59D /* libPods-XLJHttpManger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E51A98AFF84D7D2CF73E3F10 /* libPods-XLJHttpManger.a */; };
+		4D1CF86C030E50158CADB3E2 /* libPods-XLJHttpManger-XLJHttpMangerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E393BE56151498E75EDD45 /* libPods-XLJHttpManger-XLJHttpMangerTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17500AB41E865200002416F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17500A921E8651FF002416F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17500A991E8651FF002416F0;
+			remoteInfo = XLJHttpManger;
+		};
+		17500ABF1E865200002416F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17500A921E8651FF002416F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17500A991E8651FF002416F0;
+			remoteInfo = XLJHttpManger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17500A9A1E865200002416F0 /* XLJHttpManger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLJHttpManger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17500A9E1E865200002416F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17500AA01E865200002416F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17500AA11E865200002416F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17500AA31E865200002416F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17500AA41E865200002416F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17500AA71E865200002416F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17500AA91E865200002416F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17500AAC1E865200002416F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17500AAE1E865200002416F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17500AB31E865200002416F0 /* XLJHttpMangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLJHttpMangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17500AB71E865200002416F0 /* XLJHttpMangerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLJHttpMangerTests.m; sourceTree = "<group>"; };
+		17500AB91E865200002416F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17500ABE1E865200002416F0 /* XLJHttpMangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLJHttpMangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17500AC21E865200002416F0 /* XLJHttpMangerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLJHttpMangerUITests.m; sourceTree = "<group>"; };
+		17500AC41E865200002416F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17500AD21E8676CD002416F0 /* XLJHttpRequestManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJHttpRequestManger.h; sourceTree = "<group>"; };
+		17500AD31E8676CD002416F0 /* XLJHttpRequestManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJHttpRequestManger.m; sourceTree = "<group>"; };
+		17E35E571E876E3E00F0C372 /* XLJNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJNetworkCache.h; sourceTree = "<group>"; };
+		17E35E581E876E3E00F0C372 /* XLJNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJNetworkCache.m; sourceTree = "<group>"; };
+		17E35E5A1E88020800F0C372 /* XLJImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLJImageView.h; sourceTree = "<group>"; };
+		17E35E5B1E88020800F0C372 /* XLJImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLJImageView.m; sourceTree = "<group>"; };
+		225E6AF11059F6354D34FA22 /* Pods-XLJHttpManger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpManger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpManger/Pods-XLJHttpManger.debug.xcconfig"; sourceTree = "<group>"; };
+		3AE937257AE51D32D94C50BE /* libPods-XLJHttpMangerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLJHttpMangerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4941BD03DAEB6087EC7CF213 /* Pods-XLJHttpManger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpManger.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpManger/Pods-XLJHttpManger.release.xcconfig"; sourceTree = "<group>"; };
+		72E393BE56151498E75EDD45 /* libPods-XLJHttpManger-XLJHttpMangerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLJHttpManger-XLJHttpMangerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE34C38C763870B8A4F82635 /* Pods-XLJHttpMangerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpMangerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpMangerUITests/Pods-XLJHttpMangerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2C301D1DC1654AF7D148566 /* Pods-XLJHttpManger-XLJHttpMangerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpManger-XLJHttpMangerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpManger-XLJHttpMangerTests/Pods-XLJHttpManger-XLJHttpMangerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD90D4552EFBD18BB2216D55 /* Pods-XLJHttpMangerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpMangerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpMangerUITests/Pods-XLJHttpMangerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2587F07EE2E31ADF7119467 /* Pods-XLJHttpManger-XLJHttpMangerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLJHttpManger-XLJHttpMangerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLJHttpManger-XLJHttpMangerTests/Pods-XLJHttpManger-XLJHttpMangerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E51A98AFF84D7D2CF73E3F10 /* libPods-XLJHttpManger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLJHttpManger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17500A971E8651FF002416F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D73B28826F6A96BAF5AD59D /* libPods-XLJHttpManger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500AB01E865200002416F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1CF86C030E50158CADB3E2 /* libPods-XLJHttpManger-XLJHttpMangerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500ABB1E865200002416F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2590819A652D269EC45DB0 /* libPods-XLJHttpMangerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17500A911E8651FF002416F0 = {
+			isa = PBXGroup;
+			children = (
+				17500A9C1E865200002416F0 /* XLJHttpManger */,
+				17500AB61E865200002416F0 /* XLJHttpMangerTests */,
+				17500AC11E865200002416F0 /* XLJHttpMangerUITests */,
+				17500A9B1E865200002416F0 /* Products */,
+				7756A97213F5CBC6AC609D97 /* Pods */,
+				8947799AC8E50737C9CE3277 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17500A9B1E865200002416F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17500A9A1E865200002416F0 /* XLJHttpManger.app */,
+				17500AB31E865200002416F0 /* XLJHttpMangerTests.xctest */,
+				17500ABE1E865200002416F0 /* XLJHttpMangerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17500A9C1E865200002416F0 /* XLJHttpManger */ = {
+			isa = PBXGroup;
+			children = (
+				17500AD01E8652D5002416F0 /* Classes */,
+				17500AA01E865200002416F0 /* AppDelegate.h */,
+				17500AA11E865200002416F0 /* AppDelegate.m */,
+				17500AA31E865200002416F0 /* ViewController.h */,
+				17500AA41E865200002416F0 /* ViewController.m */,
+				17E35E5A1E88020800F0C372 /* XLJImageView.h */,
+				17E35E5B1E88020800F0C372 /* XLJImageView.m */,
+				17500AA61E865200002416F0 /* Main.storyboard */,
+				17500AA91E865200002416F0 /* Assets.xcassets */,
+				17500AAB1E865200002416F0 /* LaunchScreen.storyboard */,
+				17500AAE1E865200002416F0 /* Info.plist */,
+				17500A9D1E865200002416F0 /* Supporting Files */,
+			);
+			path = XLJHttpManger;
+			sourceTree = "<group>";
+		};
+		17500A9D1E865200002416F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17500A9E1E865200002416F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17500AB61E865200002416F0 /* XLJHttpMangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17500AB71E865200002416F0 /* XLJHttpMangerTests.m */,
+				17500AB91E865200002416F0 /* Info.plist */,
+			);
+			path = XLJHttpMangerTests;
+			sourceTree = "<group>";
+		};
+		17500AC11E865200002416F0 /* XLJHttpMangerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17500AC21E865200002416F0 /* XLJHttpMangerUITests.m */,
+				17500AC41E865200002416F0 /* Info.plist */,
+			);
+			path = XLJHttpMangerUITests;
+			sourceTree = "<group>";
+		};
+		17500AD01E8652D5002416F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17500AD21E8676CD002416F0 /* XLJHttpRequestManger.h */,
+				17500AD31E8676CD002416F0 /* XLJHttpRequestManger.m */,
+				17E35E571E876E3E00F0C372 /* XLJNetworkCache.h */,
+				17E35E581E876E3E00F0C372 /* XLJNetworkCache.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7756A97213F5CBC6AC609D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225E6AF11059F6354D34FA22 /* Pods-XLJHttpManger.debug.xcconfig */,
+				4941BD03DAEB6087EC7CF213 /* Pods-XLJHttpManger.release.xcconfig */,
+				E2587F07EE2E31ADF7119467 /* Pods-XLJHttpManger-XLJHttpMangerTests.debug.xcconfig */,
+				B2C301D1DC1654AF7D148566 /* Pods-XLJHttpManger-XLJHttpMangerTests.release.xcconfig */,
+				CD90D4552EFBD18BB2216D55 /* Pods-XLJHttpMangerUITests.debug.xcconfig */,
+				AE34C38C763870B8A4F82635 /* Pods-XLJHttpMangerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8947799AC8E50737C9CE3277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E51A98AFF84D7D2CF73E3F10 /* libPods-XLJHttpManger.a */,
+				72E393BE56151498E75EDD45 /* libPods-XLJHttpManger-XLJHttpMangerTests.a */,
+				3AE937257AE51D32D94C50BE /* libPods-XLJHttpMangerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17500A991E8651FF002416F0 /* XLJHttpManger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17500AC71E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpManger" */;
+			buildPhases = (
+				2C20F8601938668D5ACB6417 /* [CP] Check Pods Manifest.lock */,
+				17500A961E8651FF002416F0 /* Sources */,
+				17500A971E8651FF002416F0 /* Frameworks */,
+				17500A981E8651FF002416F0 /* Resources */,
+				E687F8807B957C84301123E6 /* [CP] Embed Pods Frameworks */,
+				E2D17E6069ADB67A64214C69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLJHttpManger;
+			productName = XLJHttpManger;
+			productReference = 17500A9A1E865200002416F0 /* XLJHttpManger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17500AB21E865200002416F0 /* XLJHttpMangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17500ACA1E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpMangerTests" */;
+			buildPhases = (
+				69A7E4F3115967F80238B5D7 /* [CP] Check Pods Manifest.lock */,
+				17500AAF1E865200002416F0 /* Sources */,
+				17500AB01E865200002416F0 /* Frameworks */,
+				17500AB11E865200002416F0 /* Resources */,
+				8E5D9A5ED5E7D97D82AAD0D3 /* [CP] Embed Pods Frameworks */,
+				F634D56FFDFFAA10E18B471E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17500AB51E865200002416F0 /* PBXTargetDependency */,
+			);
+			name = XLJHttpMangerTests;
+			productName = XLJHttpMangerTests;
+			productReference = 17500AB31E865200002416F0 /* XLJHttpMangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17500ABD1E865200002416F0 /* XLJHttpMangerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17500ACD1E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpMangerUITests" */;
+			buildPhases = (
+				130BA0D506383448B0215CBB /* [CP] Check Pods Manifest.lock */,
+				17500ABA1E865200002416F0 /* Sources */,
+				17500ABB1E865200002416F0 /* Frameworks */,
+				17500ABC1E865200002416F0 /* Resources */,
+				93B1762AAD15DF63B74CB11A /* [CP] Embed Pods Frameworks */,
+				A9EE5BDFB40042414B2B0EC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17500AC01E865200002416F0 /* PBXTargetDependency */,
+			);
+			name = XLJHttpMangerUITests;
+			productName = XLJHttpMangerUITests;
+			productReference = 17500ABE1E865200002416F0 /* XLJHttpMangerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17500A921E8651FF002416F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XLJ;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = XLJ;
+				TargetAttributes = {
+					17500A991E8651FF002416F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PT479MNYPY;
+						ProvisioningStyle = Automatic;
+					};
+					17500AB21E865200002416F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17500A991E8651FF002416F0;
+					};
+					17500ABD1E865200002416F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17500A991E8651FF002416F0;
+					};
+				};
+			};
+			buildConfigurationList = 17500A951E8651FF002416F0 /* Build configuration list for PBXProject "XLJHttpManger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17500A911E8651FF002416F0;
+			productRefGroup = 17500A9B1E865200002416F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17500A991E8651FF002416F0 /* XLJHttpManger */,
+				17500AB21E865200002416F0 /* XLJHttpMangerTests */,
+				17500ABD1E865200002416F0 /* XLJHttpMangerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17500A981E8651FF002416F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17500AAD1E865200002416F0 /* LaunchScreen.storyboard in Resources */,
+				17500AAA1E865200002416F0 /* Assets.xcassets in Resources */,
+				17500AA81E865200002416F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500AB11E865200002416F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500ABC1E865200002416F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130BA0D506383448B0215CBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C20F8601938668D5ACB6417 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69A7E4F3115967F80238B5D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E5D9A5ED5E7D97D82AAD0D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpManger-XLJHttpMangerTests/Pods-XLJHttpManger-XLJHttpMangerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B1762AAD15DF63B74CB11A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpMangerUITests/Pods-XLJHttpMangerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9EE5BDFB40042414B2B0EC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpMangerUITests/Pods-XLJHttpMangerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D17E6069ADB67A64214C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpManger/Pods-XLJHttpManger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E687F8807B957C84301123E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpManger/Pods-XLJHttpManger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F634D56FFDFFAA10E18B471E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLJHttpManger-XLJHttpMangerTests/Pods-XLJHttpManger-XLJHttpMangerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17500A961E8651FF002416F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17500AA51E865200002416F0 /* ViewController.m in Sources */,
+				17500AA21E865200002416F0 /* AppDelegate.m in Sources */,
+				17500AD41E8676CD002416F0 /* XLJHttpRequestManger.m in Sources */,
+				17E35E5C1E88020800F0C372 /* XLJImageView.m in Sources */,
+				17500A9F1E865200002416F0 /* main.m in Sources */,
+				17E35E591E876E3E00F0C372 /* XLJNetworkCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500AAF1E865200002416F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17500AB81E865200002416F0 /* XLJHttpMangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17500ABA1E865200002416F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17500AC31E865200002416F0 /* XLJHttpMangerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17500AB51E865200002416F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17500A991E8651FF002416F0 /* XLJHttpManger */;
+			targetProxy = 17500AB41E865200002416F0 /* PBXContainerItemProxy */;
+		};
+		17500AC01E865200002416F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17500A991E8651FF002416F0 /* XLJHttpManger */;
+			targetProxy = 17500ABF1E865200002416F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17500AA61E865200002416F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17500AA71E865200002416F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17500AAB1E865200002416F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17500AAC1E865200002416F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17500AC51E865200002416F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17500AC61E865200002416F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17500AC81E865200002416F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225E6AF11059F6354D34FA22 /* Pods-XLJHttpManger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT479MNYPY;
+				INFOPLIST_FILE = XLJHttpManger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17500AC91E865200002416F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4941BD03DAEB6087EC7CF213 /* Pods-XLJHttpManger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PT479MNYPY;
+				INFOPLIST_FILE = XLJHttpManger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpManger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17500ACB1E865200002416F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2587F07EE2E31ADF7119467 /* Pods-XLJHttpManger-XLJHttpMangerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLJHttpMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLJHttpManger.app/XLJHttpManger";
+			};
+			name = Debug;
+		};
+		17500ACC1E865200002416F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C301D1DC1654AF7D148566 /* Pods-XLJHttpManger-XLJHttpMangerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLJHttpMangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpMangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLJHttpManger.app/XLJHttpManger";
+			};
+			name = Release;
+		};
+		17500ACE1E865200002416F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD90D4552EFBD18BB2216D55 /* Pods-XLJHttpMangerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = XLJHttpMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpMangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLJHttpManger;
+			};
+			name = Debug;
+		};
+		17500ACF1E865200002416F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE34C38C763870B8A4F82635 /* Pods-XLJHttpMangerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = XLJHttpMangerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.XLJHttpMangerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLJHttpManger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17500A951E8651FF002416F0 /* Build configuration list for PBXProject "XLJHttpManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17500AC51E865200002416F0 /* Debug */,
+				17500AC61E865200002416F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17500AC71E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpManger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17500AC81E865200002416F0 /* Debug */,
+				17500AC91E865200002416F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17500ACA1E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpMangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17500ACB1E865200002416F0 /* Debug */,
+				17500ACC1E865200002416F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17500ACD1E865200002416F0 /* Build configuration list for PBXNativeTarget "XLJHttpMangerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17500ACE1E865200002416F0 /* Debug */,
+				17500ACF1E865200002416F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17500A921E8651FF002416F0 /* Project object */;
+}
